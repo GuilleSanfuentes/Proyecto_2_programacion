@@ -1,0 +1,7 @@
+reservas{
+    persona[
+    tour: 0,
+    degustacion: 0,
+    historia: 0
+    ]
+}

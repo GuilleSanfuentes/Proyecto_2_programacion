@@ -1,0 +1,77 @@
+[
+    {"El Dios de los Mares": 
+        "cost":{"simple":69.99,"premium":89.99,"vip":129.99},
+        "rooms":{"simple":[4,10],"premium":[3,9],"vip":[1,6]},
+        "capacity":{"simple":2,"premium":4,"vip":8}},
+    {"La Reina Isabel":
+        "cost":{"simple":59.99,"premium":99.99,"vip":119.99},
+        "rooms":{"simple":[6,10],"premium":[4,8],"vip":[2,4]},
+        "capacity":{"simple":2,"premium":4,"vip":8}},
+    {"El Libertador del Océano":
+        "cost":{"simple":49.99,"premium":89.99,"vip":139.99},
+        "rooms":{"simple":[6,8],"premium":[4,6],"vip":[4,2]},
+        "capacity":{"simple":3,"premium":5,"vip":12}},
+    {"Sabas Nieves":
+        "cost":{"simple":59.99,"premium":99.99,"vip":119.99},
+        "rooms":{"simple":[4,12],"premium":[3,7],"vip":[2,4]},
+        "capacity":{"simple":3,"premium":5,"vip":10}}
+        
+        ]
+
+[
+    {"El Dios de los Mares": 
+        "simple":{"costo":69.99,"habitaciones":[4,10],"capacidad":2},
+        "premium":{"costo":89.99,"habitaciones":[3,9],"capacidad":4},
+        "vip":{"costo":129.99,"habitaciones":[1,6],"capacidad":8}},
+    {"La Reina Isabel":
+        "simple":{"costo":59.99,"habitaciones":[6,10],"capacidad":2},
+        "premium":{"costo":99.99,"habitaciones":[4,8],"capacidad":4},
+        "vip":{"costo":119.99,"habitaciones":[2,4],"capacidad":8}},
+    {"El Libertador del Océano":
+        "simple":{"costo":49.99,"habitaciones":[6,8],"capacidad":3},
+        "premium":{"costo":89.99,"habitaciones":[4,6],"capacidad":5},
+        "vip":{"costo":139.99,"habitaciones":[4,2],"capacidad":12}},
+    {"Sabas Nieves":
+        "simple":{"costo":59.99,"habitaciones":[4,12],"capacidad":3},
+        "premium":{"costo":99.99,"habitaciones":[3,7],"capacidad":5},
+        "vip":{"costo":119.99,"habitaciones":[2,4],"capacidad":10}},
+        
+        ]
+
+    [{
+      "name": 1,
+      ,
+      "cost": {
+        "simple": "Float",
+        "premium": "Float",
+        "vip": "Float"
+            },
+      "rooms": {
+        "simple": [
+          "Int",
+          "Int"
+            ],
+        "premium": [
+          "Int",
+          "Int"
+            ],
+        "vip": [
+          "Int",
+          "Int"
+            ]
+        },
+      "capacity": {
+        "simple": "Int",
+        "premium": "Int",
+        "vip": "Int"
+        },
+      "sells": [
+            {
+          "name": "String",
+          "price": "Float",
+          "amount": "Int"
+            }
+        ]
+    }
+    
+    ]
